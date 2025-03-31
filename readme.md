@@ -20,7 +20,6 @@ If you don't have one, [create a free account here](https://github.com/join).
 1. Click the green **"Code"** button at the top of this page.
 2. Select **"Codespaces" > "Create codespace on main"**.
 3. Wait for the environment to build (1–2 minutes).
-4. Start coding! 💻
 
 ### 3. **Clone The Code Repository**
 
