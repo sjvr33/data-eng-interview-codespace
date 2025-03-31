@@ -1,21 +1,32 @@
 {
     "image": "mcr.microsoft.com/devcontainers/universal:2",
     "hostRequirements": {
-      "cpus": 2
+        "cpus": 2
     },
     "waitFor": "onCreateCommand",
     "updateContentCommand": "python3 -m pip install -r requirements.txt",
     "postCreateCommand": "",
     "customizations": {
-      "codespaces": {
-        "openFiles": []
-      },
-      "vscode": {
-        "extensions": [
-          "ms-toolsai.jupyter",
-          "ms-python.python"
-        ]
-      }
+        "codespaces": {
+            "openFiles": []
+        },
+        "vscode": {
+            "settings": {
+                "jupyter.logging.level": "debug",
+                "jupyter.experiments.enabled": true,
+                "jupyter.widgetScriptSources": [
+                    "jsdelivr.com",
+                    "unpkg.com"
+                ]
+            },
+            "extensions": [
+                "ms-python.python",
+                "ms-toolsai.jupyter",
+                "ms-toolsai.jupyter-keymap",
+                "ms-toolsai.jupyter-renderers",
+                "ms-toolsai.vscode-jupyter-cell-tags",
+                "ms-toolsai.vscode-jupyter-slideshow"
+            ]
+        }
     }
-  }
-  
+}
