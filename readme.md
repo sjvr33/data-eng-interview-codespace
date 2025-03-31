@@ -22,7 +22,7 @@ If you don't have one, [create a free account here](https://github.com/join).
 3. Wait for the environment to build (1–2 minutes).
 4. Start coding! 💻
 
-### 3. **Clone The Code Repository
+### 3. **Clone The Code Repository**
 
 1. Once you are in the codespaces environemnt
 2. CD into the repositories folder
@@ -31,7 +31,7 @@ If you don't have one, [create a free account here](https://github.com/join).
 
 https://github.com/sjvr33/data-eng-interview-assessment.git
 
-### 3. **Create Your Own Branch
+### 3. **Create Your Own Branch**
 
 1. Once you cloned the main branch make sure you CD into it
 2. create your own branch for example: feature/your-name
